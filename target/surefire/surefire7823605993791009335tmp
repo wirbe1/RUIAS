@@ -1,0 +1,7 @@
+#surefire
+#Sun Sep 25 12:40:33 MSK 2016
+maven.ext.class.path=C\:\\Program Files\\NetBeans 8.1\\java\\maven-nblib\\netbeans-eventspy.jar
+user.dir=C\:\\Users\\wirbel\\Documents\\NetBeansProjects\\MavenSelEE
+file.encoding=UTF-8
+localRepository=C\:\\Users\\wirbel\\.m2\\repository
+basedir=C\:\\Users\\wirbel\\Documents\\NetBeansProjects\\MavenSelEE

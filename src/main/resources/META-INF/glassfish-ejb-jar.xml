@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE glassfish-ejb-jar PUBLIC "-//GlassFish.org//DTD GlassFish Application Server 3.1 Java EE Application Client 6.0//EN" "http://glassfish.org/dtds/glassfish-application-client_6_0-1.dtd">
+<glassfish-ejb-jar>  
+<enterprise-beans>      
+    <ejb>        
+      <ejb-name>MDBean</ejb-name>      
+      <mdb-resource-adapter>      
+      <resource-adapter-mid>activemq-rar-5.14.0</resource-adapter-mid>
+      
+      <activation-config>
+      <activation-config-property>
+          <activation-config-property-name>destination</activation-config-property-name>
+          <activation-config-property-value>jms/ExecuteTestIn</activation-config-property-value>
+      </activation-config-property>
+
+       <activation-config-property>
+           <activation-config-property-name>destinationType</activation-config-property-name>
+           <activation-config-property-value>javax.jms.Queue</activation-config-property-value>
+       </activation-config-property>
+       </activation-config>
+      </mdb-resource-adapter>    
+    </ejb>
+  </enterprise-beans>
+
+
+</glassfish-ejb-jar>
